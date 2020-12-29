@@ -1,4 +1,4 @@
-id,source_id,title,date,top_article,reactions,comments,shares,comment_plugin
+id,source_id,title,hour,top_article,reactions,comments,shares,comment_plugin
 0,reuters,NTSB says Autopilot engaged in 2018 California Tesla crash,16:22:20Z,False,0.0,0.0,2528.0,0.0
 1,the-irish-times,Unemployment falls to post-crash low of 5.2%,10:32:28Z,False,6.0,10.0,2.0,0.0
 3,al-jazeera-english,North Korean footballer Han joins Italian giants Juventus,17:25:39Z,False,0.0,0.0,7.0,0.0

@@ -1,0 +1,12 @@
+id,name,articles,tot_reactions,tot_comments,tot_shares,color
+reuters,Reuters,1252,16963,7101,647095,black
+the-irish-times,The Irish Times,1116,26838,10514,6947,blanchedalmond
+al-jazeera-english,Al Jazeera English,499,140410,46005,36031,blue
+bbc-news,BBC News,1242,545396,207558,200636,blueviolet
+abc-news,ABC News,1139,343779,102708,82662,brown
+the-new-york-times,The New York Times,983,789908,215853,241348,burlywood
+cnn,CNN,1132,1218206,344894,327778,cadetblue
+cbs-news,CBS News,952,459741,170960,108155,chartreuse
+newsweek,Newsweek,539,93167,32426,29067,chocolate
+business-insider,Business Insider,1048,216545,101292,311678,coral
+the-wall-street-journal,The Wall Street Journal,333,84124,40065,33173,cornflowerblue

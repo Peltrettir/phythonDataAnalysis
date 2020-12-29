@@ -8,6 +8,8 @@
    2. [Gestione dei null](#preparazione.2)
 3. [Analisi dei dati](#analisi)
    1. [Distribuzione interazioni](#analisi.1)
+   2. [Interazioni per fonte](#analisi.2)
+   3. [Normalizzazione interazioni](#analisi.3)
 
 ## <a name="introduzione"/> Introduzione
 
@@ -48,7 +50,7 @@ Si traccia una heatmap che mette in evidenza la distribuzione dei valori nulli. 
 
 ## <a name="analisi"> Analisi dei dati
 
-#### notebook: [Analisi Dati](http://localhost:8888/notebooks/work/Analisi%20Dati.ipynb?token=123qwe)
+#### notebook: [Analisi Dati 1](http://localhost:8888/notebooks/work/Analisi%20Dati%201.ipynb?token=123qwe)
 
 ### <a name="analisi.1">  Distribuzione interazioni
 
@@ -58,8 +60,16 @@ Risulta inoltre evidente che la colonna *comment_plugin* presenta un numero di i
 Studiando la distribuzione delle interazioni divise per fonte, si conferma l'ipotesi fatta in precedenza in quanto la maggior parte delle testate non hanno engagement per *comment_plugin*, che viene quindi scartata.\
 In questa fase si nota anche che la testata ESPN, oltre ad essere sottorappresentata per numero di articoli, non presenta interazioni in nessuna categoria. Si sceglie quindi di eliminarla dal dataset.
 
+### <a name="analisi.2"> Interazioni per fonte
+
 Si realizza quindi un istogramma raffigurante la distribuzione delle interazioni per fonte e per tipo, mettendo in evidenza l'articolo "migliore", ovvero quello con engagement maggiore. Guardando questi grafici si ipotizza che la grande differenza di interazioni tra l'articolo migliore ed il resto degli articoli sia legata ad una notizia o avvenimento di particolare interesse.\
 <a name="bias">Se così fosse introdurremmo un bias nella nostra indagine tenendo questi articoli in quanto è ragionevole ipotizzare che questi siano pubblicati il prima possibile.
  
 Viene quindi stilata una lista dei titoli ed orari di pubblicazione degli articoli migliori per ogni fonte, divisi per tipo di interazione.\
 Da questa lista si scopre l'articolo migliore di ogni testata riguarda una notizia diversa rispetto a quello delle altre. Anzi, l'articolo migliore per una testata cambia spesso a seconda del tipo di interazione.
+
+#### notebook: [Analisi Dati 2](http://localhost:8888/notebooks/work/Analisi%20Dati%202.ipynb?token=123qwe)
+
+### <a name="analisi.3"> Normalizzazione interazioni
+
+
